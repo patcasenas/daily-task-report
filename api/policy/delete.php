@@ -7,7 +7,6 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Method: DELETE');
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/daily-task-report/configuration/dbConfig.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/daily-task-report/model/Policy.php');
 
 $pdo = new Database;
 $db = $pdo->connect();

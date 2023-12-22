@@ -7,7 +7,6 @@ Header('Content-Type: application/json');
 Header('Access-Control-Allow-Method: GET');
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/daily-task-report/configuration/dbConfig.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/daily-task-report/model/User.php');
 
 $pdo = new Database;
 $db = $pdo->connect();
